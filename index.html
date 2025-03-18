@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="" id="user_form">
+        <fieldset class="input_field basic_info">
+            <legend>Informacion basica</legend>
+            <datalist id="country_list">
+                <option value="Mexico">Mexico</option>
+                <option value="Estados Unidos">Estados Unidos</option>
+                <option value="Canada">Canada</option>
+                <option value="Espana">España</option>
+            </datalist>
+            <label for="country">Pais</label>
+            <input type="text" id="country" list="country_list">
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+html{
+    background-color: rgb(28, 25, 25);
+}
+
+#user_form{
+    height: auto;
+    width: 50%;
+    margin: 5% auto;
+    padding: 1% 5%;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(79, 79, 79);
+    background-color: rgb(30, 30, 30);
+    box-shadow: 0 0 20px 0px rgb(115, 115, 115);
+    text-align: center;
+}
+
+#input_field{
+    width: 100%;
+    margin: auto;
+    padding: 2%;
+}
+
+input{
+    width: 80%;
+    margin: 1% 5% auto auto;
+    background-color: rgb(70, 70, 70);
+}
+
+label{
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
