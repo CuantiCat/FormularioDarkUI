@@ -10,6 +10,10 @@
     <form action="" id="user_form">
         <fieldset class="input_field basic_info">
             <legend>Informacion basica</legend>
+            <label for="name">Nombre</label>
+            <input type="text" name="Nombre" id="Name">
+            <label for="age">Edad</label>
+            <input type="number" name="Edad" id="Age">
             <datalist id="country_list">
                 <option value="Mexico">Mexico</option>
                 <option value="Estados Unidos">Estados Unidos</option>
@@ -17,8 +21,16 @@
                 <option value="Espana">España</option>
             </datalist>
             <label for="country">Pais</label>
-            <input type="text" id="country" list="country_list">
+            <input type="text" name="pais" id="country" list="country_list">
         </fieldset>
+        <fieldset class="input_field contact_info">
+            <legend>Informacion de contacto</legend>
+            <label for="correo_electronico" id="email">Correo electronico</label>
+            <input type="email">
+            <label for="telefono">Numero de telefono</label>
+            <input type="tel" name="telefono" id="phone">
+        </fieldset>
+        <button type="submit">Enviar</button>
     </form>
 </body>
 </html>
